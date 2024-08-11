@@ -1,6 +1,6 @@
 # CampusFix-online
 
-**CampusFix Online** is a university complaint management system designed to efficiently handle and resolve campus-related issues. This platform enables students, faculty, and staff to report problems such as AC malfunctions, electricity outages, water supply issues, Wi-Fi connectivity problems, and plumbing leaks. The system ensures that these complaints are managed and addressed promptly to maintain a smooth campus experience.
+**CampusFix Online** is a university complaint management system designed to efficiently handle and resolve campus-related issues. This platform enables students , faculty, and staff to report problems such as AC malfunctions, electricity outages, water supply issues, Wi-Fi connectivity problems, and plumbing leaks. The system ensures that these complaints are managed and addressed promptly to maintain a smooth campus experience.
 
 ## Features
 
