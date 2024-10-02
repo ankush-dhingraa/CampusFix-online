@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #057a83;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+nav .login-btn {
+    background-color: #830e05;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url('7b0da5fe-5793-41a7-a13a-c53314b1a4ae.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .cta-btn {
+    background-image: url('7b0da5fe-5793-41a7-a13a-c53314b1a4ae.jpg');
+    background-size: auto;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.how-it-works, .features, .testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.how-it-works h2, .features h2, .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.steps, .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step, .feature {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.step img, .feature img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #057a83;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links, .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links a, .social-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .steps, .feature-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step, .feature {
+        width: 80%;
+    }
+}
