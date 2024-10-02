@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusFix Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" style="height: 50px;">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="new complaint.html" target="_blank">Report an Issue</a></li> <!-- Updated to link to new complaint page -->
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="personal detail.html" target="_blank">View Personal Details</a></li> <!-- Updated to link to personal detail page -->
+                </ul>
+            </nav>
+            <button class="logout">Logout</button>
+        </header>
+
+        <main>
+            <section class="welcome">
+                <h1>Welcome back, [User Name]</h1>
+                <p>Here is the summary of your reported issues.</p>
+            </section>
+
+            <section class="complaint-summary">
+                <div class="summary-item">
+                    <h2>Open Complaints</h2>
+                    <p class="count">5</p>
+                </div>
+                <div class="summary-item">
+                    <h2>In Progress</h2>
+                    <p class="count">3</p>
+                </div>
+                <div class="summary-item">
+                    <h2>Resolved</h2>
+                    <p class="count">10</p>
+                </div>
+            </section>
+
+            <section class="actions">
+                <button onclick="window.open('new complaint.html', '_blank')">File a New Complaint</button> <!-- Link to new complaint page -->
+                <button onclick="window.open('complaint status.html', '_blank')">Check Complaint Status</button> <!-- Link to complaint status page -->
+            </section>
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
