@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="signup.css"> <!-- Link to the CSS file for styling the signup page -->
+</head>
+<body>
+  <div class="signup-container"> <!-- Main container for the signup form -->
+    <div class="signup-title">Signup</div> <!-- Title of the signup form -->
+    <div class="signup-content"> <!-- Content area for the signup form -->
+      <form action="#"> <!-- Form submission action; update with backend endpoint for user registration -->
+        <div class="registration-details"> <!-- Container for the registration details inputs -->
+          <div class="input-field"> <!-- Input field for Full Name -->
+            <span class="input-label">Full Name</span>
+            <input type="text" placeholder="Enter your name" required> <!-- Required field for user's full name -->
+          </div>
+          <div class="input-field"> <!-- Input field for Username -->
+            <span class="input-label">Username</span>
+            <input type="text" placeholder="Enter your username" required> <!-- Required field for username -->
+          </div>
+          <div class="input-field"> <!-- Input field for Email -->
+            <span class="input-label">Email</span>
+            <input type="text" placeholder="Enter your email" required> <!-- Required field for email -->
+          </div>
+          <div class="input-field"> <!-- Input field for Phone Number -->
+            <span class="input-label">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required> <!-- Required field for phone number -->
+          </div>
+          <div class="input-field"> <!-- Input field for Roll Number -->
+            <span class="input-label">Roll Number</span>
+            <input type="text" placeholder="Enter your roll number" required> <!-- Required field for roll number -->
+          </div>
+          <div class="input-field"> <!-- Input field for Department -->
+            <span class="input-label">Department</span>
+            <input type="text" placeholder="Enter your department" required> <!-- Required field for department -->
+          </div>
+          <div class="input-field"> <!-- Input field for Password -->
+            <span class="input-label">Password</span>
+            <input type="password" placeholder="Enter your password" required> <!-- Required field for password -->
+          </div>
+          <div class="input-field"> <!-- Input field for Confirm Password -->
+            <span class="input-label">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required> <!-- Required field for password confirmation -->
+          </div>
+        </div>
+        <div class="gender-selection"> <!-- Section for gender selection -->
+          <input type="radio" name="gender" id="gender-male" required> <!-- Radio button for Male -->
+          <input type="radio" name="gender" id="gender-female" required> <!-- Radio button for Female -->
+          <input type="radio" name="gender" id="gender-prefer-not-say" required> <!-- Radio button for Prefer not to say -->
+          <span class="gender-title">Gender</span> <!-- Label for gender selection -->
+          <div class="gender-category"> <!-- Container for gender labels -->
+            <label for="gender-male"> <!-- Label for Male option -->
+              <span class="gender-dot male"></span>
+              <span class="gender-text">Male</span>
+            </label>
+            <label for="gender-female"> <!-- Label for Female option -->
+              <span class="gender-dot female"></span>
+              <span class="gender-text">Female</span>
+            </label>
+            <label for="gender-prefer-not-say"> <!-- Label for Prefer not to say option -->
+              <span class="gender-dot prefer-not-say"></span>
+              <span class="gender-text">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="submit-button"> <!-- Container for the submit button -->
+          <input type="submit" value="Register"> <!-- Submit button for the registration form -->
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
