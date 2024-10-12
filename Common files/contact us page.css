@@ -1,0 +1,148 @@
+/* General Styles */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e1e2e4; /* Matching background color */
+    height: 100%;
+}
+
+/* Header Styles */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #057a83;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    font-size: 1.2em; /* Adjusted font size for consistency */
+}
+
+.logo-image {
+    width: 150px; /* Adjusted logo size */
+    height: auto;
+}
+
+.navigation-menu .navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navigation-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Updated font size for header links */
+    padding: 5px 0;
+}
+
+.logout-button {
+    background-color: #830e05; /* Keeping the logout button color consistent */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button for consistency */
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.contact-us-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-us-title, .contact-us-section h2 {
+    color: #057a83;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-top: 10px;
+}
+
+.form-input, .form-textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #057a83;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Contact Details */
+.contact-details-container {
+    margin-top: 20px;
+}
+
+.contact-detail {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #057a83;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increased padding for consistency with homepage */
+    margin-top: auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Updated font size for footer links */
+}
+
+.social-media-container {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-us-section {
+        padding: 10px;
+    }
+}
+
+/* Ensure full height layout for footer positioning */
+body, .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Ensure footer stays at the bottom */
+.site-footer {
+    margin-top: auto;
+}

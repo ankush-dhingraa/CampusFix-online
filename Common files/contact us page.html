@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CampusFix</title>
+    <link rel="stylesheet" href="../Common Files/contact us page.css"> <!-- Link to CSS file for styling the Contact Us page -->
+</head>
+<body>
+    <header class="site-header"> <!-- Header section containing logo and navigation -->
+        <div class="logo-container">
+            <img src="../Common Files/3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" class="logo-image"> <!-- CampusFix logo -->
+        </div>
+        <nav class="navigation-menu"> <!-- Navigation menu for site links -->
+            <ul class="navigation-list"> <!-- List of navigation items -->
+                <li class="navigation-item"><a href="../homepage/Index.html" target="_blank">Home</a></li>
+                <li class="navigation-item"><a href="../Common Files/About us page.html" target="_blank">About Us</a></li>
+                <li class="navigation-item"><a href="../Dashboard/new complaint.html" target="_blank">Report an Issue</a></li>
+            </ul>
+        </nav>
+        <button class="logout-button">Logout</button> <!-- Logout button for user session termination -->
+    </header>
+
+    <main class="main-content"> <!-- Main content area for displaying contact information and form -->
+        <section class="contact-us-section"> <!-- Section containing contact form and details -->
+            <h1 class="contact-us-title">Contact Us</h1> <!-- Main heading for the contact section -->
+            <p class="contact-us-description">If you have any questions or need assistance, please fill out the form below or reach out to us through the provided contact details.</p> <!-- Description of the section -->
+            <form class="contact-form" action="#" method="post"> <!-- Form for users to submit inquiries -->
+                <label for="name" class="form-label">Name:</label> <!-- Label for name input -->
+                <input type="text" id="name" name="name" required class="form-input"> <!-- Input field for name -->
+
+                <label for="email" class="form-label">Email:</label> <!-- Label for email input -->
+                <input type="email" id="email" name="email" required class="form-input"> <!-- Input field for email -->
+
+                <label for="message" class="form-label">Message:</label> <!-- Label for message textarea -->
+                <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea> <!-- Textarea for user message -->
+
+                <button type="submit" class="submit-button">Submit</button> <!-- Submit button for the form -->
+            </form>
+            <div class="contact-details-container"> <!-- Container for displaying contact details -->
+                <h2 class="contact-details-title">Contact Details</h2> <!-- Subheading for contact details -->
+                <p class="contact-detail">Email: support@campusfix.com</p> <!-- Contact email -->
+                <p class="contact-detail">Phone: +1 234 567 890</p> <!-- Contact phone number -->
+                <p class="contact-detail">Address: 123 CampusFix Lane, University City, State, ZIP</p> <!-- Contact address -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"> <!-- Footer section containing additional links -->
+        <ul class="footer-links"> <!-- List of footer links -->
+            <li class="footer-item"><a href="../Common Files/Privacy policy page.html" target="_blank">Privacy Policy</a></li>
+            <li class="footer-item"><a href="../Common Files/Terms of service page.html" target="_blank">Terms of Service</a></li>
+        </ul>
+        <div class="social-media-container"> <!-- Placeholder for social media links -->
+            <!-- Add social media icons here -->
+        </div>
+    </footer>
+</body>
+</html>
