@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-wrapper {
+    flex: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #057a83;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-container .logo-container img {
+    height: 50px;
+}
+
+.header-container .navigation-menu .navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-container .navigation-menu .navigation-list .navigation-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-container .logout-button {
+    background-color: #830e05;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.complaint-status-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-status-section .status-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complaint-status-section .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.complaint-status-section .complaint-id-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-status-button {
+    background-color: #057a83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cancel-action-button {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer-container {
+    background-color: #057a83;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-container .footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container .footer-list .footer-item {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-container .footer-list .footer-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container .social-media-links {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .form-button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-button-group button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

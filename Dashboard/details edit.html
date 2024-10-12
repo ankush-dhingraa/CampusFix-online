@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Personal Details - CampusFix</title>
+    <link rel="stylesheet" href="details edit.css"> <!-- Link to the CSS file for styling the edit details page -->
+</head>
+<body>
+    <header class="header-layout"> <!-- Header section containing logo and navigation links -->
+        <div class="logo-container">
+            <img src="../Common Files/3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" class="logo-image" style="height: 50px;"> <!-- Logo image -->
+        </div>
+        <nav class="navigation-menu"> <!-- Navigation menu for site links -->
+            <ul class="navigation-list"> <!-- List of navigation items -->
+                <li class="nav-link-item"><a href="../homepage/Index.html" target="_blank">Home</a></li>
+                <li class="nav-link-item"><a href="../Dashboard/new complaint.html" target="_blank">Report an Issue</a></li>
+                <li class="nav-link-item"><a href="../Common Files/About us page.html" target="_blank">About Us</a></li>
+                <li class="nav-link-item"><a href="../Dashboard/personal detail.html" target="_blank">View Personal Details</a></li>
+            </ul>
+        </nav>
+        <button class="logout-button">Logout</button> <!-- Logout button to allow users to end their session -->
+    </header>
+
+    <main class="main-content-area"> <!-- Main content area for editing personal details -->
+        <section class="edit-details-wrapper"> <!-- Section containing the form for editing personal details -->
+            <h1 class="edit-details-title">Edit Personal Details</h1> <!-- Title for the edit personal details section -->
+            <form class="personal-details-form"> <!-- Form to capture updated personal details -->
+                <div class="form-input-group"> <!-- Input group for Name -->
+                    <label for="name" class="input-label">Name:</label>
+                    <input type="text" id="name" name="name" value="Sahiba Bali" class="input-field"> <!-- Field to input the user's name -->
+                </div>
+                <div class="form-input-group"> <!-- Input group for Roll Number -->
+                    <label for="roll-number" class="input-label">Roll Number:</label>
+                    <input type="text" id="roll-number" name="roll-number" value="123456" class="input-field"> <!-- Field for user's roll number -->
+                </div>
+                <div class="form-input-group"> <!-- Input group for Email -->
+                    <label for="email" class="input-label">Email:</label>
+                    <input type="email" id="email" name="email" value="sahiba.bali@example.com" class="input-field"> <!-- Field for user's email address -->
+                </div>
+                <div class="form-input-group"> <!-- Input group for Phone -->
+                    <label for="phone" class="input-label">Phone:</label>
+                    <input type="tel" id="phone" name="phone" value="+91 9876543210" class="input-field"> <!-- Field for user's phone number -->
+                </div>
+                <div class="form-input-group"> <!-- Input group for Department -->
+                    <label for="department" class="input-label">Department:</label>
+                    <input type="text" id="department" name="department" value="Computer Science" class="input-field"> <!-- Field for user's department -->
+                </div>
+                <div class="form-input-group"> <!-- Input group for Gender -->
+                    <label for="gender" class="input-label">Gender:</label>
+                    <select id="gender" name="gender" class="input-select"> <!-- Dropdown for gender selection -->
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-button-group"> <!-- Group for form buttons -->
+                    <button type="submit" class="form-submit-button">Save</button> <!-- Button to submit the form and save changes -->
+                    <button type="button" class="form-cancel-button">Cancel</button> <!-- Button to cancel the edit operation -->
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-layout"> <!-- Footer section containing additional links -->
+        <ul class="footer-links"> <!-- List of footer links -->
+            <li class="footer-link-item"><a href="../Common Files/Privacy policy page.html" target="_blank">Privacy Policy</a></li>
+            <li class="footer-link-item"><a href="../Common Files/Terms of service page.html" target="_blank">Terms of Service</a></li>
+            <li class="footer-link-item"><a href="../Common Files/contact us page.html" target="_blank">Contact Us</a></li>
+        </ul>
+        <div class="social-media-links"> <!-- Placeholder for social media links/icons -->
+            <!-- Add social media icons here -->
+        </div>
+    </footer>
+</body>
+</html>

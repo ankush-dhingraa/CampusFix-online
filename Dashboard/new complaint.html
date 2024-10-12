@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File a New Complaint - CampusFix</title>
+    <link rel="stylesheet" href="new complaint.css"> <!-- Link to the CSS file for styling the new complaint form -->
+</head>
+<body>
+    <header class="header-layout"> <!-- Header section containing logo and navigation links -->
+        <div class="logo-container">
+            <img src="../Common Files/3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" style="height: 50px;"> <!-- Logo image -->
+        </div>
+        <nav class="navigation-menu"> <!-- Navigation menu for site links -->
+            <ul class="navigation-list"> <!-- List of navigation items -->
+                <li class="nav-link-item"><a href="../homepage/Index.html" target="_blank">Home</a></li>
+                <li class="nav-link-item"><a href="../Common Files/About us page.html" target="_blank">About Us</a></li>
+                <li class="nav-link-item"><a href="../Dashboard/personal detail.html" target="_blank">View Personal Details</a></li>
+            </ul>
+        </nav>
+        <button class="logout-button">Logout</button> <!-- Logout button for user session termination -->
+    </header>
+
+    <main class="main-content-area"> <!-- Main content area for filing a new complaint -->
+        <section class="complaint-form-section"> <!-- Section containing the complaint form -->
+            <h1 class="form-title">File a New Complaint</h1> <!-- Title for the complaint form -->
+            <form class="complaint-form"> <!-- Form for users to submit a new complaint -->
+                <label for="complaint-title" class="form-label">Complaint Title:</label> <!-- Label for the complaint title input -->
+                <input type="text" id="complaint-title" name="complaint-title" placeholder="Broken Window in Library" class="form-input"> <!-- Input field for the title of the complaint -->
+
+                <label for="category" class="form-label">Category:</label> <!-- Label for the complaint category selection -->
+                <select id="category" name="category" class="form-select"> <!-- Dropdown for selecting complaint category -->
+                    <option value="electricity">Electricity</option>
+                    <option value="plumbing">Plumbing</option>
+                    <option value="carpentry">Carpentry</option>
+                </select>
+
+                <label for="location" class="form-label">Location:</label> <!-- Label for the location input -->
+                <input type="text" id="location" name="location" placeholder="Library, 2nd Floor" class="form-input"> <!-- Input field for the location of the issue -->
+
+                <label for="description" class="form-label">Description:</label> <!-- Label for the complaint description -->
+                <textarea id="description" name="description" rows="4" placeholder="Provide more details about the issue..." class="form-textarea"></textarea> <!-- Text area for providing detailed information about the complaint -->
+
+                <label for="upload-image" class="form-label">Upload Image:</label> <!-- Label for the image upload input -->
+                <input type="file" id="upload-image" name="upload-image" class="form-file-input"> <!-- Input field for uploading images related to the complaint -->
+
+                <div class="form-button-group"> <!-- Group for form buttons -->
+                    <button type="submit" class="form-submit-button">Submit</button> <!-- Button to submit the complaint form -->
+                    <button type="button" class="form-cancel-button">Cancel</button> <!-- Button to cancel the complaint filing -->
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-layout"> <!-- Footer section containing additional links -->
+        <ul class="footer-links"> <!-- List of footer links -->
+            <li class="footer-link-item"><a href="../Common Files/Privacy policy page.html" target="_blank">Privacy Policy</a></li>
+            <li class="footer-link-item"><a href="../Common Files/Terms of service page.html" target="_blank">Terms of Service</a></li>
+            <li class="footer-link-item"><a href="../Common Files/contact us page.html" target="_blank">Contact Us</a></li>
+        </ul>
+        <div class="social-media-links"> <!-- Placeholder for social media links/icons -->
+            <!-- Add social media icons here -->
+        </div>
+    </footer>
+</body>
+</html>

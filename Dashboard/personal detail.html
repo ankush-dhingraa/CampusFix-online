@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Personal Details - CampusFix</title>
+    <link rel="stylesheet" href="personal detail.css"> <!-- Link to CSS file for styling personal details page -->
+</head>
+<body>
+    <header class="header-layout"> <!-- Header section containing logo and navigation menu -->
+        <div class="logo-container">
+            <img src="../Common Files/3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" class="logo-image"> <!-- Logo image for CampusFix -->
+        </div>
+        <nav class="navigation-menu"> <!-- Navigation menu for site links -->
+            <ul class="navigation-list"> <!-- List of navigation items -->
+                <li class="nav-link-item"><a href="../homepage/Index.html" target="_blank">Home</a></li>
+                <li class="nav-link-item"><a href="../Dashboard/new complaint.html" target="_blank">Report an Issue</a></li>
+                <li class="nav-link-item"><a href="../Common Files/About us page.html" target="_blank">About Us</a></li>
+            </ul>
+        </nav>
+        <button class="logout-button">Logout</button> <!-- Logout button to terminate user session -->
+    </header>
+
+    <main class="main-content-area"> <!-- Main content area for displaying personal details -->
+        <section class="personal-details-section"> <!-- Section containing the user's personal details -->
+            <h1 class="section-title">Personal Details</h1> <!-- Title for the personal details section -->
+            <div class="details-container"> <!-- Container for individual detail items -->
+                <div class="detail-item-container"> <!-- Container for name detail -->
+                    <label for="name" class="detail-label">Name:</label>
+                    <p id="name" class="detail-value">Sahiba Bali</p> <!-- Displaying the user's name -->
+                </div>
+                <div class="detail-item-container"> <!-- Container for roll number detail -->
+                    <label for="roll-number" class="detail-label">Roll Number:</label>
+                    <p id="roll-number" class="detail-value">123456</p> <!-- Displaying the user's roll number -->
+                </div>
+                <div class="detail-item-container"> <!-- Container for email detail -->
+                    <label for="email" class="detail-label">Email:</label>
+                    <p id="email" class="detail-value">sahiba.Bali@example.com</p> <!-- Displaying the user's email address -->
+                </div>
+                <div class="detail-item-container"> <!-- Container for phone detail -->
+                    <label for="phone" class="detail-label">Phone:</label>
+                    <p id="phone" class="detail-value">+91 9876543210</p> <!-- Displaying the user's phone number -->
+                </div>
+                <div class="detail-item-container"> <!-- Container for department detail -->
+                    <label for="department" class="detail-label">Department:</label>
+                    <p id="department" class="detail-value">Computer Science</p> <!-- Displaying the user's department -->
+                </div>
+                <div class="detail-item-container"> <!-- Container for gender detail -->
+                    <label for="gender" class="detail-label">Gender:</label>
+                    <p id="gender" class="detail-value">Female</p> <!-- Displaying the user's gender -->
+                </div>
+            </div>
+            <div class="action-button-group"> <!-- Group for action buttons related to personal details -->
+                <button type="button" class="edit-details-button" onclick="window.open('details edit.html', '_blank')">Edit</button> <!-- Button to edit personal details, opens edit form in a new tab -->
+                <button type="button" class="cancel-action-button">Cancel</button> <!-- Button to cancel any ongoing action -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-layout"> <!-- Footer section containing additional links -->
+        <ul class="footer-links"> <!-- List of footer links -->
+            <li class="footer-link-item"><a href="../Common Files/Privacy policy page.html" target="_blank">Privacy Policy</a></li>
+            <li class="footer-link-item"><a href="../Common Files/Terms of service page.html" target="_blank">Terms of Service</a></li>
+            <li class="footer-link-item"><a href="../Common Files/contact us page.html" target="_blank">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

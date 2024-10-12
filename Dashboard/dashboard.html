@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusFix Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css"> <!-- Link to the CSS file for dashboard styling -->
+</head>
+<body>
+    <div class="dashboard-container"> <!-- Main container for the dashboard content -->
+        <header class="header-container"> <!-- Header section containing logo and navigation -->
+            <div class="logo-container">
+                <img src="../Common Files/3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" class="logo-image"> <!-- Logo image -->
+            </div>
+            <nav class="navigation-menu"> <!-- Navigation menu for dashboard links -->
+                <ul class="navigation-list"> <!-- List of navigation items -->
+                    <li class="navigation-item"><a href="../homepage/Index.html" target="_blank">Home</a></li>
+                    <li class="navigation-item"><a href="../Dashboard/new complaint.html" target="_blank">Report an Issue</a></li>
+                    <li class="navigation-item"><a href="../Common Files/About us page.html" target="_blank">About Us</a></li>
+                    <li class="navigation-item"><a href="../Dashboard/personal detail.html" target="_blank">View Personal Details</a></li>
+                </ul>
+            </nav>
+            <button class="logout-button">Logout</button> <!-- Logout button to end user session -->
+        </header>
+
+        <main class="main-content"> <!-- Main content area for the dashboard -->
+            <section class="welcome-message"> <!-- Section to display a welcome message to the user -->
+                <h1 class="welcome-heading">Welcome back, [User Name]</h1> <!-- Placeholder for the user's name -->
+                <p class="welcome-description">Here is the summary of your reported issues.</p> <!-- Description for the summary section -->
+            </section>
+
+            <section class="complaint-summary-section"> <!-- Section to display summary of complaints -->
+                <div class="summary-item-container"> <!-- Container for open complaints summary -->
+                    <h2 class="summary-title">Open Complaints</h2>
+                    <p class="summary-count">5</p> <!-- Placeholder for the count of open complaints -->
+                </div>
+                <div class="summary-item-container"> <!-- Container for in-progress complaints summary -->
+                    <h2 class="summary-title">In Progress</h2>
+                    <p class="summary-count">3</p> <!-- Placeholder for the count of in-progress complaints -->
+                </div>
+                <div class="summary-item-container"> <!-- Container for resolved complaints summary -->
+                    <h2 class="summary-title">Resolved</h2>
+                    <p class="summary-count">10</p> <!-- Placeholder for the count of resolved complaints -->
+                </div>
+            </section>
+
+            <section class="action-buttons-section"> <!-- Section for action buttons -->
+                <button class="new-complaint-button" onclick="window.open('../Dashboard/new complaint.html', '_blank')">File a New Complaint</button> <!-- Button to navigate to the new complaint form -->
+                <button class="check-status-button" onclick="window.open('../Dashboard/complaint status.html', '_blank')">Check Complaint Status</button> <!-- Button to navigate to the complaint status page -->
+            </section>
+        </main>
+
+        <footer class="footer-container"> <!-- Footer section for additional links -->
+            <ul class="footer-list"> <!-- List of footer links -->
+                <li class="footer-item"><a href="../Common Files/Privacy policy page.html" target="_blank">Privacy Policy</a></li>
+                <li class="footer-item"><a href="../Common Files/Terms of service page.html" target="_blank">Terms of Service</a></li>
+                <li class="footer-item"><a href="../Common Files/contact us page.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

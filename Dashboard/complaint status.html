@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Complaint Status - CampusFix</title>
+    <link rel="stylesheet" href="complaint status.css"> <!-- Link to CSS file for styling the complaint status page -->
+</head>
+<body>
+    <div class="page-wrapper"> <!-- Wrapper for the entire page content -->
+        <header class="header-container"> <!-- Header section containing the logo and navigation menu -->
+            <div class="logo-container">
+                <img src="../Common Files/3f45f006-49c4-4bb4-bd3f-7439b700763b-removebg-preview-removebg-preview.png" alt="CampusFix Logo" class="logo-image"> <!-- Logo image for the website -->
+            </div>
+            <nav class="navigation-menu"> <!-- Navigation menu -->
+                <ul class="navigation-list"> <!-- List of navigation items -->
+                    <li class="navigation-item"><a href="../homepage/Index.html" target="_blank">Home</a></li>
+                    <li class="navigation-item"><a href="../Dashboard/new complaint.html" target="_blank">Report an Issue</a></li>
+                    <li class="navigation-item"><a href="../Common Files/About us page.html" target="_blank">About Us</a></li>
+                    <li class="navigation-item"><a href="../Dashboard/personal detail.html" target="_blank">View Personal Details</a></li>
+                </ul>
+            </nav>
+            <button class="logout-button">Logout</button> <!-- Logout button for user session termination -->
+        </header>
+
+        <main class="main-content"> <!-- Main content area for the page -->
+            <section class="complaint-status-section"> <!-- Section for checking complaint status -->
+                <h1 class="status-heading">Check Complaint Status</h1> <!-- Heading for the status check section -->
+                <form class="status-check-form"> <!-- Form to input complaint ID -->
+                    <label for="complaint-id" class="form-label">Complaint ID:</label>
+                    <input type="text" id="complaint-id" name="complaint-id" class="complaint-id-input" placeholder="Enter your complaint ID"> <!-- Input field for complaint ID -->
+                    <div class="form-button-group"> <!-- Group for action buttons -->
+                        <button type="submit" class="check-status-button">Check Status</button> <!-- Button to submit the form and check status -->
+                        <button type="button" class="cancel-action-button">Cancel</button> <!-- Button to cancel the action (could clear the input or redirect) -->
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer-container"> <!-- Footer section of the page -->
+        <ul class="footer-list"> <!-- List of footer links -->
+            <li class="footer-item"><a href="../Common Files/Privacy policy page.html" target="_blank">Privacy Policy</a></li>
+            <li class="footer-item"><a href="../Common Files/Terms of service page.html" target="_blank">Terms of Service</a></li>
+            <li class="footer-item"><a href="../Common Files/contact us page.html" target="_blank">Contact Us</a></li>
+        </ul>
+        <div class="social-media-links"></div> <!-- Placeholder for social media links (currently empty) -->
+    </footer>
+</body>
+</html>

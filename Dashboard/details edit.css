@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #057a83;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-layout .logo-container img {
+    height: 50px;
+}
+
+.header-layout .navigation-menu .navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-layout .navigation-menu .navigation-list .nav-link-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-layout .logout-button {
+    background-color: #830e05;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-content-area {
+    padding: 20px;
+}
+
+.edit-details-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-details-wrapper .edit-details-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-details-wrapper .personal-details-form .form-input-group {
+    margin-bottom: 15px;
+}
+
+.edit-details-wrapper .personal-details-form .form-input-group .input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-details-wrapper .personal-details-form .form-input-group .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-details-wrapper .personal-details-form .form-button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-details-wrapper .personal-details-form .form-button-group .form-submit-button {
+    background-color: #057a83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-details-wrapper .personal-details-form .form-button-group .form-cancel-button {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer-layout {
+    background-color: #057a83;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-layout .footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-layout .footer-links .footer-link-item {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-layout .footer-links .footer-link-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-layout .social-media-links {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edit-details-wrapper .personal-details-form .form-button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edit-details-wrapper .personal-details-form .form-button-group button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

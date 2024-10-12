@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #057a83;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-layout .logo-container img {
+    height: 50px;
+}
+
+.header-layout .navigation-menu .navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-layout .navigation-menu .navigation-list .nav-link-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-layout .logout-button {
+    background-color: #830e05;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-content-area {
+    padding: 20px;
+}
+
+.complaint-form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-form-section .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complaint-form-section .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.complaint-form-section .form-input,
+.complaint-form-section .form-select,
+.complaint-form-section .form-textarea,
+.complaint-form-section .form-file-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.complaint-form-section .form-button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.complaint-form-section .form-submit-button {
+    background-color: #057a83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.complaint-form-section .form-cancel-button {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer-layout {
+    background-color: #057a83;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-layout .footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-layout .footer-links .footer-link-item {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-layout .footer-links .footer-link-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-layout .social-media-links {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .complaint-form-section .form-button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .complaint-form-section .form-button-group button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

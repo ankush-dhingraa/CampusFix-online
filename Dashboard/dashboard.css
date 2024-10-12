@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #057a83;
+    color: white;
+    padding: 20px 40px;
+}
+
+.logo-container .logo-image {
+    height: 50px;
+}
+
+.navigation-menu .navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navigation-menu .navigation-list .navigation-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout-button {
+    background-color: #830e05;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-heading {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.welcome-description {
+    font-size: 18px;
+    color: #555;
+}
+
+.complaint-summary-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.summary-item-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.summary-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.summary-count {
+    font-size: 36px;
+    color: #057a83;
+}
+
+.action-buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.action-buttons-section button {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #057a83;
+    color: white;
+}
+
+.footer-container {
+    background-color: #057a83;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-list .footer-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .complaint-summary-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .summary-item-container {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .action-buttons-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
